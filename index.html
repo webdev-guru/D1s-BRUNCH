@@ -22,49 +22,53 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/1.png" alt="D1's Brunch" class="brand-logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+<nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+    <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="./assets/images/1.png" alt="D1's Brunch" class="brand-logo">
+        </a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#heroSlider">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reservation">Reservation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
+        <!-- Menu Icon -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                </ul>
-                <a href="#" class="btn btn-brand">Order Online</a>
-            </div>
-            <!-- Add this in your header or navbar -->
-            <div class="profile-icon" style="position: absolute; top: 20px; right: 20px;">
+        <!-- Profile Icon -->
+        <div class="profile-icon" style="margin-left: auto; margin-right: 15px;">
             <a href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true" style="font-size: 24px; color: black;"></i></a>
-            </div>
         </div>
-    </nav>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#heroSlider">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reservation">Reservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-brand">Order Online</a>
+        </div>
+    </div>
+</nav>
 
     <!-- Hero Slider -->
     <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
