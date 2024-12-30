@@ -7,8 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome for icons -->
-    <!-- Boxicons CSS for icons -->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> <!-- Boxicons CSS for icons -->
     
     <style>
         * {
@@ -30,12 +29,12 @@
         }
 
         .container {
-            background-color: rgba(255, 255, 255, 0.2); /* Adjust transparency by changing 0.2 */
+            background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency */
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
             max-width: 400px;
-            width: 100%;
+            width: 90%; /* Adjust width for smaller devices */
             text-align: center;
         }
 
@@ -57,12 +56,12 @@
             border-radius: 5px;
             border: 1px solid #000;
             font-size: 16px;
-            background-color: rgba(255, 255, 255, 0.2); /* Transparent input field */
+            background-color: rgba(255, 255, 255, 0.9);
             color: #000;
         }
 
         .input-type input::placeholder, .input-pass input::placeholder {
-            color: #383434; /* Placeholder color */
+            color: #383434;
         }
 
         .input-type i, .input-pass i {
@@ -70,8 +69,8 @@
             left: 10px;
             top: 50%;
             transform: translateY(-50%);
-            color: #000; /* Icon color changed to black */
-            font-size: 18px; /* Adjust icon size */
+            color: #000;
+            font-size: 18px;
         }
 
         .iremember-forgot {
@@ -79,15 +78,16 @@
             justify-content: space-between;
             font-size: 14px;
             margin-bottom: 20px;
+            flex-wrap: wrap; /* Ensure wrapping on smaller screens */
         }
 
         .iremember-forgot label {
-            font-weight: bold; /* Bold "Remember Me" text */
+            font-weight: bold;
         }
 
         .iremember-forgot a {
-            color: #00aaff; /* Light blue color for the "Forgotten Password" link */
-            text-decoration: underline; /* Underlined link */
+            color: #00aaff;
+            text-decoration: underline;
         }
 
         .login-btn {
@@ -100,7 +100,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
-            font-weight: bold; /* Bold Login button text */
+            font-weight: bold;
         }
 
         .login-btn:hover {
@@ -115,7 +115,38 @@
         .register-link a {
             color: #880202;
             text-decoration: none;
-            font-weight: bold; /* Bold Register link text */
+            font-weight: bold;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            .input-type input, .input-pass input {
+                font-size: 14px;
+            }
+
+            .login-btn {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .iremember-forgot {
+                font-size: 12px;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .iremember-forgot label, .iremember-forgot a {
+                margin-bottom: 5px;
+            }
         }
     </style>
 </head>
