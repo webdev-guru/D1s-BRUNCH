@@ -24,14 +24,24 @@
     <style>
         /* General Styling */
         .navbar-brand img {
-            width: 50px;
+            width: 80px; /* Increased logo size */
         }
 
         /* Align menu and profile icons in the same row for mobile */
         .top-icons {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px;
+        }
+
+        .navbar-toggler-icon {
+            width: 20px; /* Reduced menu icon size for mobile */
+            height: 20px;
+        }
+
+        /* Style for the order button */
+        .btn-brand {
+            margin-right: 20px; /* Added space between button and profile icon on laptops */
         }
 
         /* Media Query for Desktop View */
@@ -106,11 +116,10 @@
                     </li>
                 </ul>
                 <!-- Order Button -->
-                <a href="#" class="btn btn-brand">Order Online</a>
+                <a href="#" class="btn btn-brand btn-primary">Order Online</a>
             </div>
         </div>
     </nav>
-
     <!-- Hero Slider -->
     <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
