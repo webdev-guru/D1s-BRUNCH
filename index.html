@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D1's Brunch - Bootstrap Landing Page</title>
+    <!-- Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+         
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- icons links -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons links -->
+    <!-- Style Css -->
+    <script src="https://kit.fontawesome.com/2dd7d30e63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/1.png" alt="D1's Brunch" class="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroSlider">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+
+                </ul>
+                <a href="#" class="btn btn-brand">Order Online</a>
+            </div>
+            <!-- Add this in your header or navbar -->
+            <div class="profile-icon" style="position: absolute; top: 20px; right: 20px;">
+            <a href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true" style="font-size: 24px; color: black;"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO D1's BRUNCH</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Char-grilled and flavor-filled</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO D1's BRUNCH</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <img src="./assets/images/TRACY.png" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>D1's Brunch is a little world of it's own, We're passionate on making dishes that satisfy your cravings.</p>
+                    <p>Here we give Top Notch Fresh foods, with a good taste like homemade food</p>
+                    <a href="#" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>EXPLORE A WORLD OF FLAVORS AT D1's BRUNCH WHERE EVERY DISH IS A LITTLE MOMENT OF JOY!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/EGUSI & FUFU.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Egusi Soup & Fufu</a></h5>
+                                    <p class="small">Melon soup with fried chicken, kpomo & beef</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/AFANG & FUFU.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Afang Soup & Fufu</a></h5>
+                                    <p class="small">Vegetable soup with stockfish, goatmeat & beef</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/OKRA & EBA.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Okra Soup & Eba</a></h5>
+                                    <p class="small">Okra soup with fried chicken, kpomo & beefs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/PEPPER SOUP.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Goat Meat Pepper soup</a></h5>
+                                    <p class="small">Pepper soup with asorted</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/DESPERADO.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">DESPERADO</a></h5>
+                                    <p class="small">Chilled Desperado beer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/GULDER.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#"> GULDER</a></h5>
+                                    <p class="small">Chilled Gulder beer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/HERO.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">HERO</a></h5>
+                                    <p class="small">Chilled Hero beer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/HEINEKEN.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">HEINEKEN</a></h5>
+                                    <p class="small">Chilled Heineken beer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/YAM & EGG SAUCE.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">YAM SAUCE</a></h5>
+                                    <p class="small">Boiled yam and egg sauce</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/JELLOF RICE.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">JOLLOF RICE</a></h5>
+                                    <p class="small">Jollof rice and fried chicken</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/SPAGHETTI & MEATBALLS.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">SPAGHETTI</a></h5>
+                                    <p class="small">Stew Spaghetti with meatballs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/PIZZA NOODLES .png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">PIZZA NOODLES</a></h5>
+                                    <p class="small">Pizza noodles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/SHAWARMA.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">SHAWARMA</a></h5>
+                                    <p class="small">Chicken shawarma</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/BURGER.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">BURGER</a></h5>
+                                    <p class="small">Double Deck Burger & Coke</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/SAMOSA.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">SAMOSA</a></h5>
+                                    <p class="small">Samosa & Ketchup</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/BOLE.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">BOLE</a></h5>
+                                    <p class="small">Roasted Plantain & Fish</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/EGUSI & FUFU.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">EGUSI & FUFU</a></h5>
+                                    <p class="small">Melon soup with fried chicken, kpomo & beef</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/OKRA & EBA.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">OKRA & EBA</a></h5>
+                                    <p class="small">Okra soup with fried chicken, kpomo & beefs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/AFANG & FUFU.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">AFANG & FUFU</a></h5>
+                                    <p class="small">Vegetable soup with stockfish, goatmeat & beef</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/PEPPER MEAT.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">PEPPER MEAT</a></h5>
+                                    <p class="small">Cow & Goat Beef well Garnished, with Vegetables. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Why to choose us?</h1>
+                    <p class="text-white">At D1's Brunch, we believe that brunch is more than just a meal.
+                        It's a cherished experience....
+                    </p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-wifi-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white"> Available only for Customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-timer-2-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+                        <p class="text-white">Get you Dishes Delivered to your door step very fast.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-user-5-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+                        <p class="text-white">Staffs entertainment top notch.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-shield-star-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Top 10 Best Brunch in Port Harcourt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Our Team Members</h1>
+                    <p>At D1's Brunch, Our team is the heart of everything we do. From our skilled chefs who craft delicious dishes
+                        to our friendly waiters who ensure your experience is exceptional.
+                    </p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/CYNTHIA.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">CYNTHIA</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/BIG FLOW.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">BIG FLOW</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/BLESSING.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">BLESSING</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/SAMMY.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">SAMMY</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section id="reviews" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Our Client Reviews</h1>
+                    <p class="text-white">We cherish every review as a testament to our dedication.....
+                        Here's what our recent guests have to say about thier time at D1's Brunch
+                    </p>
+                </div>
+            </div>
+
+            <div id="reviewSlider" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="mb-0">"I can't say enough wonderful things about D1's Brunch! From the moment I walked in, 
+                                        I was greeted with a warm smile and a cozy atmosphere. The menu is diverse, 
+                                        with something for everyone. I ordered the signature pancakes, and they were fluffy, delicious, 
+                                        and served with fresh fruit that made my taste buds dance. The service was attentive but never intrusive, 
+                                        making me feel like a valued guest. This place is a hidden gem, and I can’t wait to come back for another amazing brunch experience!"</p>
+                                    <div class="person mt-4">
+                                        <img src="./assets/images/SD2.png" alt="">
+                                        <h4 class="mb-0 mt-2">SD</h4>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="mb-0">"D1's Brunch has quickly become my favorite weekend spot! The moment I stepped inside, 
+                                        I was captivated by the inviting ambiance and friendly staff. I tried their afang and egusi soup with fufu,
+                                         and both were absolutely ddelicious! The flavors were fresh, and the presentation was gorgeous. 
+                                         What really impressed me was the attentive service — my server made sure I had everything I needed without being overbearing.
+                                          If you're looking for a delicious brunch in a charming setting, this is the place to be! Highly recommend!"
+                                    </p>
+                                    <div class="person mt-4">
+                                        <img src="./assets/images/MAMBER.jpg" alt="">
+                                        <h4 class="mb-0 mt-2">MAMBER</h4>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Book Your Table</h1>
+                    <p>Elevate your brunch experience at D1's Brunch! Secure a table today & indulge on delicious dishes...</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Meesage"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Insta Posts -->
+    <div class="row g-0">
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="./assets/images/ICE CREAM.png" alt="">
+                <a href="#" class="insta-btn">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="./assets/images/DOUGHNUT.png" alt="">
+                <a href="#" class="insta-btn">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="./assets/images/PAN CAKE.png" alt="">
+                <a href="#" class="insta-btn">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="./assets/images/CAKE.png" alt="">
+                <a href="#" class="insta-btn">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Post -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Blog Posts</h1>
+                    <p>D1's Brunch Highlights on Social Media</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/SPAG.png" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posted: 25 March, 2018</p>
+                            <h4><a href="#">How to make spaghetti with meat balls
+                                </a></h4>
+                            <p>Who does not love a delicious plate of spaghetti? And throw in some meatballs and it’s heaven!</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/PEPS.png" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posted: 25 Dec, 2018</p>
+                            <h4><a href="#">How to make delicious Goat meat pepper soup
+                                </a></h4>
+                            <p>This goat meat pepper soup is a favorite Nigerian soup that is so nutritious and filling. </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/SHA.png" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posted: 03 Jan, 2019</p>
+                            <h4><a href="#">How to make shawarma
+                                </a></h4>
+                            <p>This is one of my signature recipes that will be very familiar to all my friends because I make this so often.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/MELON.png" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posted: 25 Nov, 2020</p>
+                            <h4><a href="#">How to make delicious egusi soup
+                                </a></h4>
+                            <p>Egusi soup is the most popular soup in Nigeria, this recipe shows you how </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+<footer class="bg-cover">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row gy-5 align-items-center">
+                <div class="col-lg-4 text-center">
+                    <img src="./assets/images/2.png" class="mb-4" alt="D1's Brunch Logo">
+                </div>
+                <div class="col-lg-4">
+                    <div class="social-links text-center">
+                        <a href="tel:08066203414"><i class="ri-phone-line"></i> Call Us</a>
+                        <a href="https://wa.me/08066203414" target="_blank"><i class="ri-whatsapp-fill"></i> WhatsApp</a>
+                        <a href="mailto:d1stechnologie24@gmail.com"><i class="ri-mail-send-fill"></i> Email Us</a>
+                        <a href="https://www.google.com/maps?q=D1's+Brunch" target="_blank"><i class="ri-map-pin-line"></i> Find Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 opening-hours text-center">
+                    <h6 class="text-white mb-4">OPENING HOURS</h6>
+                    <p class="mb-1">Monday - Friday: 08:00 AM - 08:00 PM</p>
+                    <p class="mb-1">Saturday - Sunday: 09:00 AM - 06:00 PM</p>
+                    <p class="mb-1">Join us for brunch and let’s make every moment special!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row gy-3 justify-content-between">
+                <div class="col-auto">
+                    <p class="mb-0">Copyright © 2024 All rights reserved</p>
+                </div>
+                <div class="col-auto">
+                    <p class="mb-0">Designed By <a href="https://www.instagram.com/d1stechnologies.24?igsh=Yjhjd3VoOGRqNDNy" style="color: #ffdd57;">D1's Technologies</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
